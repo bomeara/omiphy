@@ -1,0 +1,17 @@
+Package: omiphy
+Title: Utility functions for phylogenetics, networks, and similar
+Version: 0.0.0.9000
+Authors@R: 
+    person("Brian", "O'Meara", , "omeara.brian@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-0337-5997"))
+Description: This has assorted functions for doing various tasks, largely on trees. It is like `bbmle`, `phytools`, `ape`, or similar.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    ape,
+    phytools
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
